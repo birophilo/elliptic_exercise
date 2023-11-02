@@ -12,7 +12,7 @@ Running from command line:
 
 ```bash
 # clone the repo
-$ git clone https://gitlab.com/abeales/elliptic_exercise
+$ git clone https://github.com/birophilo/elliptic_exercise
 
 # set up virtualenv
 $ cd elliptic_exercise
@@ -27,6 +27,9 @@ $ echo ETHERSCAN_API_KEY=<my_api_key> > .env
 
 # run the script (it might take a few moments the first time due to Pandas loading time)
 $ python csv_generator.py <ethereum_address>
+
+# run tests
+$ python -m pytest
 ```
 
 
